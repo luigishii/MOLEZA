@@ -113,6 +113,32 @@
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous">
+        </script>
+        <script type="module">
+          // Import the functions you need from the SDKs you need
+          import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+          import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+          // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+        
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          const firebaseConfig = {
+            apiKey: "AIzaSyB_s0I_rV-TfbTIGnFpElQvyIWvxRzlr5I",
+            authDomain: "lanchonete-do-moleza.firebaseapp.com",
+            projectId: "lanchonete-do-moleza",
+            storageBucket: "lanchonete-do-moleza.appspot.com",
+            messagingSenderId: "792175937995",
+            appId: "1:792175937995:web:93dd2327a87befd9584e4e",
+            measurementId: "G-5NHYG8Q700"
+          };
+        
+          // Initialize Firebase
+          const app = initializeApp(firebaseConfig);
+          const analytics = getAnalytics(app);
+        </script>
+
+
     </bod ppy>
 </html>
